@@ -21,7 +21,8 @@ public class Day20031601 {
 		System.out.println("byte형의 최대값 : " + Byte.MAX_VALUE);
 		System.out.println("byte형의 최소값 : " + Byte.MIN_VALUE);
 		
-		
+		System.out.println("double형의 최대값 : " + Double.MAX_VALUE);
+		System.out.println("double형의 최대값 : " + Double.MAX_VALUE);
 		
 		
 	}
