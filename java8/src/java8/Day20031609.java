@@ -28,7 +28,7 @@ public class Day20031609 {
 		 */
 		
 		// 1.
-		boolean isMetro1 = isCapital && (citizens > 100);
+		boolean isMetro1 = isCapital && (citizens >= 100);
 		// 2.
 		boolean isMetro2 = riches >= 50;
 		
