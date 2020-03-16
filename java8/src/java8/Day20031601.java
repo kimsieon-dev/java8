@@ -22,5 +22,7 @@ public class Day20031601 {
 		System.out.println("byte형의 최소값 : " + Byte.MIN_VALUE);
 		
 		
+		
+		
 	}
 }
