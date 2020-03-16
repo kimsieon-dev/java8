@@ -1,6 +1,6 @@
 package java8;
 
-public class Day20301606 {
+public class Day20031606 {
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 3;
