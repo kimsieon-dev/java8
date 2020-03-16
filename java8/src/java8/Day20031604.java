@@ -30,6 +30,5 @@ public class Day20031604 {
 		
 		boolean result = num1 < num2; // boolean -> Âü, °ÅÁş
 		System.out.println(result);
-                               
 	}
 }
