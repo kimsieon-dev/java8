@@ -10,6 +10,6 @@ public class Day20031602 {
 			System.out.println(number2);
 		}
 		System.out.println(number1);
-//		System.out.println(number2);
+		//	System.out.println(number2);
 	}
 }
