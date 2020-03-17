@@ -18,6 +18,5 @@ public class Day20031706 {
 		System.out.println("a % b = " + res5);
 		System.out.println("a / b = " + res6);
 		
-		
 	}
 }
