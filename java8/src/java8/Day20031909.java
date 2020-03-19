@@ -19,15 +19,15 @@ public class Day20031909 {
 		switch(user) {
 		case "a":
 		case "A":
-			user = "ga";
+			user = ga;
 			break;
 		case "b":
 		case "B":
-			user = "ba";
+			user = ba;
 			break;
 		case "c":
 		case "C":
-			user = "bo";
+			user = bo;
 			break;
 			default:
 				user ="error";
@@ -43,13 +43,13 @@ public class Day20031909 {
 		
 		switch(num) {
 		case 0:
-			com = "ga";
+			com = ga;
 			break;
 		case 1:
-			com = "ba";
+			com = ba;
 			break;
 		case 2:
-			com = "bo";
+			com = bo;
 			break;
 		}
 		
