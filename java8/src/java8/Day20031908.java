@@ -28,6 +28,6 @@ public class Day20031908 {
 			System.out.println("카페모카");
 			break;
 		}
-		sc.close();
+		sc.close(); 
 	}
 }
