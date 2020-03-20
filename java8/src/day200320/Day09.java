@@ -15,5 +15,6 @@ public class Day09 {
 		} else {
 			System.out.println(year + "년은 윤년이 아니다."); 
 		}
+		sc.close();
 	}
 }
