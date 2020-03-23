@@ -21,3 +21,5 @@ public class Day10 {
 		sc.close();
 	}
 }
+
+// \ 표시를 하고 싶으면 \\입력
