@@ -10,6 +10,8 @@ public class Day08 {
 		}
 		
 		// double avg = sum / 50.0;
+		// double avg = sum / 50F;
+		// double avg = sum / 50D;
 		double avg = (double)sum / 50;
 		System.out.println("1부터 50까지의 합의 평균 : " + avg + " 입니다.");
 	}
