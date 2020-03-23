@@ -17,5 +17,16 @@ public class Day09 {
 				System.out.println(i);
 			}
 		}
+		System.out.println("==========");
+		
+		for ( i = 1; i <= 100; i++) {
+			System.out.print(i + " ");
+			if( i % 3 == 0) {
+				System.out.print("PING");
+			}if( i % 5 == 0) {
+				System.out.print("PONG");
+			}
+			System.out.println();
+		}
 	}
 }
