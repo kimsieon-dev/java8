@@ -10,6 +10,6 @@ public class Day04 {
 				sum += i;
 			}
 		}
-		System.out.println("1부터 50까지 중 3의 배수의 합 : " + sum + " 입니다.");
+		System.out.println("1부터 50까지 중 3의 배수의 합 : " + sum + " 입니다."); 
 	}
 }
