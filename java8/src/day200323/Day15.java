@@ -55,12 +55,12 @@ public class Day15 {
 			com = bo;
 			break;
 		}
-
+		
+		/*
 		if ((user.equals(ga) && com.equals(bo)) || (user.equals(ba)) && (com.equals(ga))
 				|| (user.equals(bo)) && (com.equals(ba))); {
 					score += 100;
 					System.out.println("유저 승! 유저 : " + user + ", 컴퓨터 : " + com);
-					System.out.println("score : " + score + "점, life : " + life); 
 		}else if(user.equals(com)) {
 			score += 10;
 			System.out.println("비겼음! 유저 : " + user + ", 컴퓨터 : " + com);
@@ -73,6 +73,7 @@ public class Day15 {
 			System.out.println("게임을 종료합니다.");
 			System.exit(0);
 		}
+		*/
 		}
 	}
 }
