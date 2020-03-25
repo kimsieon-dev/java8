@@ -16,6 +16,7 @@ public class Day08 {
 			
 			if(cu == answer) {
 				System.out.println("정답입니다.");
+				System.exit(0);
 			}else if(cu > answer) {
 				System.out.println("더 작은 수를 입력하세요.");
 			}else if(cu < answer) {
