@@ -8,5 +8,18 @@ public class Day04 {
 		 * ABCDEFGHIJKLMNOPQRSTUVWXYZ 각
 		 * 형변환이 필요
 		 */
+		
+	
+		char i;
+		char j;
+		
+		for(i = 97; i <= 122; i++) {
+			System.out.print(i);
+		}
+		System.out.println();
+		
+		for(i = 65; i <= 90; i++) {
+			System.out.print(i);
+		}
 	}
 }
