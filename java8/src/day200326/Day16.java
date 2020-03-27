@@ -77,11 +77,14 @@ public class Day16 {
 			}
 
 			System.out.println(strike + " strike " + ball + " ball");
-			if(strike == 3) {
+			if (strike == 3) {
 				System.out.println("정답입니다. 게임을 종료합니다.");
 				System.exit(0);
 			}
 			strike = ball = 0;
+			for (int i = 0; i < user.length; i++) {
+				user[i] = 0;
+			}
 		}
 
 	}
