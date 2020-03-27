@@ -43,10 +43,10 @@ public class Day04 {
 		
 		int[] ary = Arrays.copyOf(arr, 6);
 		Arrays.sort(ary);
-		
+		System.out.print("당첨 번호 : ");
 		for(int i = 0; i < ary.length; i++) {
 			System.out.print(ary[i] + " ");
 		}
-
+		System.out.println(", 보너스 번호 : " + arr[7]);
 	}
 }
