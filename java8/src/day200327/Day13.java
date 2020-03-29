@@ -9,6 +9,7 @@ public class Day13 {
 		final String bo = "º¸";
 		int com;
 		int user;
+		
 
 		while (true) {
 			Scanner sc = new Scanner(System.in);
