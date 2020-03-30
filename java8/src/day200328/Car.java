@@ -1,7 +1,7 @@
 package day200328;
 
 public class Car {
-	/* 필드 */
+	/* 필드 */ 
 	String company = "기아자동차";
 	String model = "쏘울";
 	String color = "흰색";
