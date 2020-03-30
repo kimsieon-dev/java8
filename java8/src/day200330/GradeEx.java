@@ -13,6 +13,6 @@ public class GradeEx {
 		Grade me = new Grade(kor, eng, mat);
 		System.out.println("평균 : " + me.avg()); // avg()는 평균을 계산하여 리턴
 
-		sc.close();
+		sc.close(); 
 	}
 }
