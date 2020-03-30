@@ -33,5 +33,30 @@ public class CarEx {
 		System.out.println(yourCar.maxSpeed);
 		System.out.println(yourCar.Speed);
 		System.out.println();
+		
+		System.out.println("생성자 예제");
+		Car c1 = new Car();
+		System.out.println(c1.company);
+		System.out.println(c1.model);
+		System.out.println(c1.color);
+		System.out.println(c1.maxSpeed);
+		System.out.println(c1.Speed);
+		System.out.println();
+		
+		Car c2 = new Car(250);
+		System.out.println(c2.company);
+		System.out.println(c2.model);
+		System.out.println(c2.color);
+		System.out.println(c2.maxSpeed);
+		System.out.println(c2.Speed);
+		System.out.println();
+		
+		Car c3 = new Car("파랑", 350);
+		System.out.println(c3.company);
+		System.out.println(c3.model);
+		System.out.println(c3.color);
+		System.out.println(c3.maxSpeed);
+		System.out.println(c3.Speed);
+		System.out.println();
 	}
 }
