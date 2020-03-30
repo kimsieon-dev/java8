@@ -1,4 +1,4 @@
-package day200328;
+package day200330;
 
 public class StaticBlock {
 	static String company = "»ï¼º";
