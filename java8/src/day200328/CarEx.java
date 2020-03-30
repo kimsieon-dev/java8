@@ -2,7 +2,7 @@ package day200328;
 
 public class CarEx {
 	public static void main(String[] args) {
-		Car myCar = new Car(); // Car 객체 생성(instance)
+		Car myCar = new Car("쌍용자동차", "노랑", 300); // Car 객체 생성(instance)
 		
 		System.out.println("데이터 입력 전");
 		System.out.println(myCar.company);
@@ -26,7 +26,7 @@ public class CarEx {
 		System.out.println(myCar.Speed);
 		System.out.println();
 		
-		Car yourCar = new Car();
+		Car yourCar = new Car("기아자동차", "검정", 300);
 		System.out.println(yourCar.company);
 		System.out.println(yourCar.model);
 		System.out.println(yourCar.color);
