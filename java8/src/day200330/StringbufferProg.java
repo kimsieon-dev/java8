@@ -5,7 +5,7 @@ public class StringbufferProg {
 		StringBuffer str = new StringBuffer("Java Programming");
 		StringBuffer str2;
 		
-		str2 = str.insert(5, "JSP");
+		str2 = str.insert(5, "JSP ");
 		System.out.println(str);
 		System.out.println(str2);
 		
