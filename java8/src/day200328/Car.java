@@ -6,7 +6,7 @@ public class Car {
 	String model = "쏘울";
 	String color = "흰색";
 	int maxSpeed = 200;
-	int Speed = 100;
+	int speed = 10;
 	
 	/* 생성자 */
 	 Car() { // 생성자를 생성하지 않으면 기본 생성자가 자동으로 작성된다.
@@ -36,8 +36,9 @@ public class Car {
 	 * company = com;
 	 * color = col; 
 	 * maxSpeed = max;
+	 * {
 	 */
-	}
+	
 	
 //	Car(String company, int maxSpeed, String color) {
 //		
@@ -54,4 +55,18 @@ public class Car {
 //	Car(int maxSpeed, String color, String company) {
 //		// 자료형의 형태가 중복되면 불가능
 //	}
-
+	
+	/* 메소드 */
+	void accel() {
+		speed += 10;
+		if(speed > maxSpeed) {
+			speed = maxSpeed;
+		}
+		System.out.println("현재 속도 : " + speed);
+	}
+	
+	void brake() {
+		speed = 0;
+		System.out.println("현재 속도 : " + speed);
+	}
+}
