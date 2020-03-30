@@ -1,4 +1,4 @@
-package day200328;
+package day200330;
 
 public class PersonEx {
 	public static void main(String[] args) {
