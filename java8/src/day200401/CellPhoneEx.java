@@ -15,9 +15,10 @@ public class CellPhoneEx {
 		dcp.trunOffDmb(); // 자신의 메서드
 		dcp.powerOff(); // 부모님 메서드
 		
+		// 부모 객체
 		CellPhone cp = new CellPhone();
-		cp.powerOn();
-//		cp.turnOnDmb(); // 부모님의 객체는 자식의 인스턴스를 호출할 수 없다.
-		cp.powerOff();
+		cp.powerOn(); // 부모 메서드
+//		cp.turnOnDmb(); // 자식 메서드 -> 부모님의 객체는 자식의 인스턴스를 호출할 수 없다.
+		cp.powerOff(); // 부모 메서드
 	}
 }
