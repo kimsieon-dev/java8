@@ -7,6 +7,6 @@ public class PromoChild extends PromoParent {
 	}
 
 	void method3() {
-		System.out.println("자식 메서드3");
+		System.out.println("자식 메서드3"); 
 	}
 }

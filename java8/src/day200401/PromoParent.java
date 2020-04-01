@@ -6,6 +6,6 @@ public class PromoParent {
 	}
 
 	void method2() {
-		System.out.println("부모 메서드2");
+		System.out.println("부모 메서드2"); 
 	}
 }
