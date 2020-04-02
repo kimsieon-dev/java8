@@ -50,5 +50,21 @@ public class RemoteControlEx {
 		rc.setMute(false);
 		rc.turnOff();
 		System.out.println();
+		
+		rc = new IpTV();
+		rc.turnOn();
+		rc.setVolum(5);
+		rc.setMute(true);
+		rc.setMute(false);
+		rc.turnOff();
+		System.out.println();
+		
+		rc = new IpTV2();
+		rc.turnOn();
+		rc.setVolum(5);
+		rc.setMute(true);
+		rc.setMute(false);
+		rc.turnOff();
+		System.out.println();
 	}
 }
