@@ -71,7 +71,7 @@ public class A {
 
 	// 정적 필드 초기화
 	// static B field3 = new B(); // (x) A 객체 없음
-	static C outerfield4 = new C(); // (o) 정적은 가능
+	static C outerfield4 = new C(); // (o) 정적은 가능 사용할때는 static는 static만 사용가능
 
 	// 정적 메소드
 	static void method2() {
