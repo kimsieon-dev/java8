@@ -16,7 +16,7 @@ public class RemoteControlEx {
 		rc.setMute(false);
 		rc.turnOff();
 		System.out.println();
-		
+
 		rc = audio;
 		rc.turnOn();
 		rc.setVolum(5);
@@ -24,6 +24,31 @@ public class RemoteControlEx {
 		rc.setMute(false);
 		rc.turnOff();
 		System.out.println();
-		
+
+		// 익명 구현 개체, 한번만 사용가능
+		rc = new RemoteControl() {
+
+			@Override
+			public void turnOn() {
+				System.out.println("보일러를 켭니다.");
+			}
+
+			@Override
+			public void turnOff() {
+				System.out.println("보일러를 끕니다.");
+			}
+
+			@Override
+			public void setVolum(int volum) {
+				System.out.println("온도의 단계를 " + volum + "단계로 변경합니다.");
+			}
+		};
+
+		rc.turnOn();
+		rc.setVolum(5);
+		rc.setMute(true);
+		rc.setMute(false);
+		rc.turnOff();
+		System.out.println();
 	}
 }
