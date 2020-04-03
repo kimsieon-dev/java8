@@ -9,6 +9,10 @@ public class MemberThinEx {
 		MemberThin cloned = original.getMember();
 		cloned.password = "67890"; // 복재 객체에서 패스워드 변경
 		
+		System.out.println(original.hashCode());
+		System.out.println(cloned.hashCode());
+		System.out.println();
+		
 		System.out.println("[복제 객체의 필드값]");
 		System.out.println("id : " + cloned.id);
 		System.out.println("name : " + cloned.name);
