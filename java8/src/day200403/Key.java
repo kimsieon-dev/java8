@@ -22,4 +22,10 @@ public class Key {
 	public int hashCode() {
 		return number;
 	}
+
+	// toString 재정의
+	@Override
+	public String toString() {
+		return "Key 객체 저장된 Number : " + number;
+	}
 }

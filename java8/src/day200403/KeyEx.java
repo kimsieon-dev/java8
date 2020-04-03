@@ -11,5 +11,8 @@ public class KeyEx {
 
 		System.out.println(k1.hashCode());
 		System.out.println(k2.hashCode());
+
+		// toString
+		System.out.println(k1);
 	}
 }
