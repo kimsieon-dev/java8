@@ -1,6 +1,6 @@
 package day200403;
 
-public class MemberThin {
+public class MemberThin implements Cloneable { // 복제하려면 Cloneable 인터페이스를 구현해야 한다.
 	public String id;
 	public String name;
 	public String password;
