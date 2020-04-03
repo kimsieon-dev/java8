@@ -14,7 +14,7 @@ public class MemberThin implements Cloneable { // 복제하려면 Cloneable 인터페이�
 		this.age = age;
 		this.adult = adult;
 	}
-
+	
 	public MemberThin getMember() {
 		MemberThin cloned = null;
 		try {
