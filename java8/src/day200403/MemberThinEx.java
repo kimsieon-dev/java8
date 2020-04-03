@@ -7,6 +7,7 @@ public class MemberThinEx {
 		
 		// 복제 객체를 얻은 후에 패스워드 변경
 		MemberThin cloned = original.getMember();
+//		MemberThin cloned = original; // 얕은 복제
 		cloned.password = "67890"; // 복재 객체에서 패스워드 변경
 		
 		System.out.println(original.hashCode());
