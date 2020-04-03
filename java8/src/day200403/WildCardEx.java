@@ -39,7 +39,7 @@ public class WildCardEx {
 		
 		Course<Student> studentCourse = new Course<Student>("학생코스", 5);
 //		studentCourse.add(person);
-//		studentCourse.add(woker);
+//		studentCourse.add(worker);
 		studentCourse.add(student);
 		studentCourse.add(highStudent);
 		
