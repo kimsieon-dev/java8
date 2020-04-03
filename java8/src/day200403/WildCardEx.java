@@ -2,8 +2,6 @@ package day200403;
 
 import java.util.Arrays;
 
-import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
-
 public class WildCardEx {
 	public static void registerCourse(Course<?> course) {
 		System.out.println(course.getName() + " ¼ö°­»ý : " + 
