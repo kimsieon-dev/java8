@@ -27,7 +27,7 @@ public class StackEx {
 		stack.push(50);
 
 		while (!stack.isEmpty()) {
-			num = stack.pop();
+			num = stack.pop(); 
 			System.out.println(num);
 		}
 		System.out.println(stack.isEmpty());
