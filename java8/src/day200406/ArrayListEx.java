@@ -87,5 +87,7 @@ class ArrayListEx {
 		System.out.println();
 
 		Integer[] ary = arrList.toArray(new Integer[arrList.size()]);
+		arrList.clear(); // get, set, contains만 사용가능
+		System.out.println(arrList.get(0));
 	}
 }
