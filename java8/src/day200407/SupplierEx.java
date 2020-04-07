@@ -10,7 +10,6 @@ public class SupplierEx {
 		};
 
 		int num = intSupplier.getAsInt();
-		System.out.println("´«ÀÇ ¼ö : " + num
-				);
+		System.out.println("´«ÀÇ ¼ö : " + num);
 	}
 }
