@@ -11,9 +11,10 @@ public class FontJAppletEx {
 		p.init();
 		
 
-		f.setSize(500, 500);
+		f.setSize(600, 500);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.add(p);
+		f.setResizable(false);
 		f.setVisible(true);
 	}
 }
