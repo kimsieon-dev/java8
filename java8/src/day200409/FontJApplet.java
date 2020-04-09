@@ -30,6 +30,5 @@ public class FontJApplet extends JPanel {
 		g.setColor(Color.blue);
 		g.setFont(monoItalic);
 		param = "Font name = Monospaced, style = ITALIC, size = 20";
-		g.drawString(param, 10, 130);
 	}
 }
