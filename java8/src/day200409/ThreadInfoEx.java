@@ -8,7 +8,7 @@ public class ThreadInfoEx {
 		AutoSaveThread autoSaveThread = new AutoSaveThread(); // 데몬 스레드의 AutoSvaThread 클래스
 		autoSaveThread.setName("AutoSaveThread");
 		autoSaveThread.setDaemon(true); // start 전에 setDaemon 해야한다.
-		autoSaveThread.start();
+		autoSaveThread.start(); 
 		
 		Map<Thread, StackTraceElement[]> map = Thread.getAllStackTraces();
 		Set<Thread> threads = map.keySet();
