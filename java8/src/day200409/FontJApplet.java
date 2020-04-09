@@ -22,7 +22,7 @@ public class FontJApplet extends JPanel {
 		param = "Font name = serif, style = BOLD, size = 10";
 		g.drawString(param, 10, 10);
 		g.setFont(serifBoldI);
-		param = "Font name = serif, style = BOLD + ITALIC, size =13";
+		param = "Font name = serif, style = BOLD + ITALIC, size = 13";
 		g.drawString(param, 10, 50);
 		g.setFont(sansPlain);
 		param = "Font name = SansSerif, style = PLAIN, size = 16";
