@@ -32,7 +32,7 @@ public class JScrollPaneTest extends JFrame {
 
 		add(js, BorderLayout.CENTER);
 
-		setSize(300, 300);
+		setSize(250, 250);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
