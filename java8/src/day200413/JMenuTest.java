@@ -62,6 +62,6 @@ public class JMenuTest extends JFrame {
 		jmi6.addActionListener(listener);
 		jmi7.addActionListener(listener);
 		jmi8.addActionListener(listener);
-
+		
 	}
 }
