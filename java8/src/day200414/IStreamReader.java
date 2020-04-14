@@ -18,7 +18,7 @@ public class IStreamReader {
 				idata = isr.read();
 				if (idata == -1)
 					break;
-				System.out.println((char) idata);
+				System.out.print((char) idata);
 			}
 		} catch (IOException e) {
 			System.out.println(e.toString());
