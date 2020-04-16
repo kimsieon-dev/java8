@@ -14,7 +14,6 @@ public class JdbcConprog {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(jdbc_url, "root", "yt1234");
 			System.out.println("데이터베이스에 접속했습니다.");
-			conn.close();
 		} catch (ClassNotFoundException e) {
 			System.out.println("ClassNotFoundException : " + e.getMessage());
 		} catch (SQLException se) {
