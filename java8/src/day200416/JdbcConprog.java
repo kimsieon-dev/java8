@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class JdbcConprog {
 	public static void main(String[] args) {
 		String jdbc_url = "jdbc:mysql://localhost:3306/my_database?useUnicode=true"
-				+ "&characterEncoding=UTF8&serverTimezone=UTC";
+				+ "&characterEncoding=UTF8&serverTimezone=Asia/Seoul";
 		Connection conn = null;
 
 		try {
