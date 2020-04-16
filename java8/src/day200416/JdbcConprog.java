@@ -19,6 +19,12 @@ public class JdbcConprog {
 			System.out.println("ClassNotFoundException : " + e.getMessage());
 		} catch (SQLException se) {
 			System.out.println(se.getMessage());
+		} finally {
+			try {
+				if (conn != null) conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
